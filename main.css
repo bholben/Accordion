@@ -1,0 +1,27 @@
+
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+  border: 1px solid brown;
+}
+
+.title {
+  background-color: brown;
+  color: white;
+}
+
+.content {
+  height: 300px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.collapse {
+  height: 0;
+}
+
