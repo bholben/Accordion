@@ -1,29 +1,49 @@
 
-html body {
+html, body, h2, p {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans'
+  font-family: "Lato", sans-serif;
+}
+
+h1, p {
+  margin: 20px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .container {
   width: 800px;
   margin: 30px auto;
-  border: 1px solid brown;
+  border: 1px solid #00DAEC;
 }
 
 .title {
-  background-color: brown;
+  padding: 15px;
+  background-color: #00DAEC;
   color: white;
   cursor: pointer;
+  border-top: 1px solid black;
+}
+
+.title-top {
+  border-top: none;
+}
+
+.title:hover {
+  background-color: #00C6D6;
 }
 
 .content {
   height: 300px;
+  margin: 0;
   overflow: hidden;
   transition: all 0.3s ease;
 }
 
 .collapse {
   height: 0;
+  padding-top: 0;
 }
 
